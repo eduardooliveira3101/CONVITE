@@ -1,6 +1,6 @@
 #app {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 50rem 2fr;
 
   height: 100vh;
   overflow: hidden;
@@ -12,4 +12,10 @@
 main {
   overflow: auto;
   background-color: var(--shape-body);
+}
+
+.brand {
+  border-radius: 1.2rem;
+  background: url(../assets/images/Background.png) no-repeat center center;
+  background-size: cover;
 }
