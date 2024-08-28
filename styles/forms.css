@@ -3,11 +3,9 @@ form {
     font: var(--heading-md);
     color: var(--text-heading);
   }
-  
+
   & fieldset {
-    font: var(--heading-sm);
-    color: var(--text-heading);
-  
+    border: none;
   }
   
   & fieldset + fieldset {
@@ -15,19 +13,61 @@ form {
   }
   
   & label {
+    display: inline-block;
     font: var(--body-sm);
     margin-bottom: 1.2rem;
     color: var(--text-body);
   }
 
   & input {
+    font: var(--body-md);
+
+    color: var(--text-body);
+
     width: 100%;
     padding-top: 1.3rem;
     padding-bottom: 1.3rem;
     padding-left: 1.6rem;
     background-color: var(--input-base);
     border: 1px solid var(--input-stroke);
+    border-radius: .8rem;
+    margin-bottom: 1.2rem;
+    height: 5.5rem;
   }
+
+  & input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+
+  & input[type="radio"] {
+    height: 3rem;
+  }
+  
+  legend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: var(--heading-sm) ;
+    gap: 1.2rem;
+    color: var(--text-heading);
+    margin-bottom: 2.4rem;
+  }
+
+  .flex {
+    display: flex;
+    gap: 1.6rem;
+  }
+
+  .flex-1 {
+    flex: 1;
+  }
+
+  .flex-inline {
+    display: flex;
+    flex-direction: row;
+  }
+
+
 }
 
 

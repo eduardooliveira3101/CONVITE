@@ -1,3 +1,9 @@
+.brand {
+  border-radius: 1.2rem;
+  background: url(../../assets/images/Background.png) no-repeat center center;
+  background-size: cover;
+}
+
 .brand-wrapper {
   display: flex;
   flex-direction: column;

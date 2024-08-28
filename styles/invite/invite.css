@@ -1,7 +1,17 @@
 .invite {
+  display: flex;
+  flex-direction: column;
+  padding: 3.2rem;
+
   max-width: 110rem;
   margin-inline: auto;
   margin-top: 4rem;
   margin-bottom: 4rem;
 
+  & h1 {
+    font: var( --heading-md);
+    color: var(--text-heading);
+    margin-bottom: 4rem;
+  }
 }
+

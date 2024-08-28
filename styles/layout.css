@@ -12,10 +12,10 @@
 main {
   overflow: auto;
   background-color: var(--shape-body);
+  border-radius: 1.2rem;
 }
 
-.brand {
-  border-radius: 1.2rem;
-  background: url(../assets/images/Background.png) no-repeat center center;
-  background-size: cover;
-}
+
+
+
+
